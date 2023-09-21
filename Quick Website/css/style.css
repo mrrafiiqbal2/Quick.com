@@ -1,0 +1,224 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+/*global css start*/
+.container{
+	width: 1140px;
+	float: left;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+/*global css end*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.header .navbar{
+	width: 100%;
+	display: block;
+	text-align: right;
+	list-style: none;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+
+
+}
+
+.header .navbar li a{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 10px 0px 0px 20px;
+	color: red;
+	transition: 1s;
+}
+.header .navbar li a:hover{
+	background: red;
+	color: black;
+	background: 2px solid black;
+}
+/*header part end*/
+
+
+/*banner part start*/
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 52px;
+	line-height: 1.2em;
+	color: red;
+	font-weight: bold;
+	margin: 0px 0px 10px;
+}
+.banner h1 span{
+	color: #008AFF;
+}
+.banner p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: black;
+	margin: 0px 0px 20px;
+}
+.banner .banner-img{
+	width: 60%;
+}
+/*banner part end*/
+
+/*succesful part start*/
+.succesful{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 30px;
+}
+.succesful .left-box{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.succesful .left-box h1{
+	font-size: 30px;
+	line-height: 1.7em;
+	color: red;
+	font-weight: bold;
+	margin: 0px  15px 5px 0px;
+}
+.succesful .left-box p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: green;
+	font-weight: 400;
+	margin: 0px  15px 5px 0px;
+}
+.succesful .right-box{
+	width: 100%;
+	float: left;
+	text-align: ;
+}
+.succesful .right-box h1{
+	font-size: 52px;
+	line-height: 1.2em;
+	color: darkred;
+	font-weight: bold;
+	margin: 0px 0px;
+}
+/*succesful part end*/
+
+/*feature part start*/
+.feature{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.feature .inner-feature{
+	width: 80%;
+	padding: 50px 30px;
+	margin: 0px 15px;
+}
+.feature .inner-feature:hover{
+	background: #eee;
+	color: black;
+
+}
+.feature .inner-feature img{
+	width: 100%;
+	margin: 0px 0px 10px;
+	height: 180px;
+}
+.feature .inner-feature h4{
+	font-size: 20px;
+	line-height: 1.2em;
+	color: darkred;
+	font-weight: bold;
+	margin: 0px 10px 0px;
+}
+.feature .inner-feature p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: green;
+	font-weight: 400;
+	margin: 0px  15px 5px 0px;
+}
+.cl1{
+	background: darkgrey;
+	}
+
+.cl2{
+	background: greenyellow;
+}
+.cl3{
+	background: yellow;
+}
+/*feature part end*/
+
+/*footer part start*/
+
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: darkgrey;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: green;
+	font-weight: 400;
+	margin: 0px  15px 5px 0px;
+	text-align: center;
+}
+.footer p a{
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 1s;
+}
+.footer p a:hover{
+	background: yellow;
+	color: black;
+}
+/*footer part end*/
